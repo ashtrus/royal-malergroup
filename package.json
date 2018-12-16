@@ -1,0 +1,32 @@
+{
+  "name": "royal-malergroup",
+  "description": "Royal MalerGroup homepage.",
+  "version": "1.0.0",
+  "author": "Zygimantas Butas <zygimantas.butas@gmail.com>",
+  "dependencies": {
+    "gatsby": "2.0.67",
+    "gatsby-plugin-catch-links": "2.0.9",
+    "gatsby-plugin-react-helmet": "3.0.4",
+    "gatsby-source-filesystem": "2.0.12",
+    "gatsby-transformer-remark": "2.1.15",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-helmet": "5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ashtrus/royal-malergroup",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "2.0.1",
+    "prettier": "1.15.3"
+  }
+}
