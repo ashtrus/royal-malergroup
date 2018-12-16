@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{152:function(e,t,n){"use strict";n.r(t);var a=n(0),s=n.n(a);n(11);t.default=function(){return s.a.createElement("div",null,s.a.createElement("h1",null,"Welcome to my website"),s.a.createElement("p",null,"This is a sample site for the Gatsby crash course"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-7258672dd3016f34a145.js.map
