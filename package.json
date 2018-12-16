@@ -17,7 +17,7 @@
     "gatsby"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ashtrus/royal-malergroup",
+  "homepage": "https://ashtrus.github.io/royal-malergroup/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
