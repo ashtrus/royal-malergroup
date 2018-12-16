@@ -23,7 +23,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d public --user 'ashtrus <zygimantas.butas@gmail.com>'"
+    "deploy": "npm run build && gh-pages -d public --user 'ashtrus <zygimantas.butas@gmail.com>'"
   },
   "devDependencies": {
     "gh-pages": "2.0.1",
