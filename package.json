@@ -25,9 +25,13 @@
     "start": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run build && gh-pages -d public --user 'ashtrus <zygimantas.butas@gmail.com>'"
+    "deploy": "npm run build && gh-pages -d public --user 'ashtrus <zygimantas.butas@gmail.com>'",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check"
   },
   "devDependencies": {
+    "eslint": "5.10.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
     "gh-pages": "2.0.1",
     "prettier": "1.15.3"
   }
