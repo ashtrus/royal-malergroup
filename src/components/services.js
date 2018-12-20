@@ -4,13 +4,14 @@ import Row from 'react-bootstrap/lib/Row'
 import Col from 'react-bootstrap/lib/Col'
 import Card from 'react-bootstrap/lib/card'
 import CardGroup from 'react-bootstrap/lib/CardGroup'
+import MainHeader from './main-header'
 
 const Services = () => (
   <>
-    <Container>
-      <h2 className="pt-4 pb-5 text-uppercase text-center">Our services</h2>
+    <Container className="my-5">
+      <MainHeader title={'Our services'} />
 
-      <Row className="py-4">
+      <Row className="pb-4">
         <Col md={{ span: 8, offset: 2 }}>
           <p className="text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
